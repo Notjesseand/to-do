@@ -137,3 +137,52 @@ select {
   transform: scale(1.5);
 }
 */
+
+@media only screen and (max-width: 600px) {
+  header {
+    font-size: 1rem;
+  }
+  .first,
+  form input,
+  form button {
+    font-size: 19px;
+    padding: 13px;
+    border-radius: 4px 0px 0px 4px;
+  }
+  form button{
+    border-radius: 0px 4px 4px 0px;
+  
+  }
+  .form input{
+    width: 60%;
+  }
+  .wholeForm {
+    display: grid;
+    grid-template-columns: 100%, 100%;
+  }
+  
+.select{
+  display: flex;
+  padding: 0;
+  height: 48px;
+  border-radius: 4px;
+  margin: auto;
+  margin-bottom: 20px;
+  
+}
+
+.filter-todo {
+  padding: 1rem;
+}
+.todo{
+  border-radius: 4px;
+}
+.todo li{
+  font-size: 15px;
+  padding: 4px 17px;
+}
+.trash-btn{
+  border-radius: 0px 4px 4px 0px;
+}
+  
+}
